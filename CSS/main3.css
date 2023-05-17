@@ -1,0 +1,125 @@
+.text-item{
+    background-color: #2a4672;
+    width: 550px;
+    height: 250px;
+}
+.wrap{
+    width: 1200px;
+    margin: 10px auto;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.btn1{
+    width: 90px;
+    height: 15px;
+    text-align: center;
+    margin-left: 30px;
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color:red;
+    border: 2px solid red;
+    border-radius: 8px;
+    transition: all ease-in;
+    float: left;
+}
+.btn1:active{
+    border-bottom-width: 3px;
+    margin-top: 3px;
+}
+.btn2{
+    width: 90px;
+    height: 15px;
+    text-align: center;
+    margin-left: 30px;
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color:white;
+    border: 2px solid mediumseagreen;
+    background-color: mediumseagreen;
+    border-radius: 20px;
+    transition: all ease-in;
+    float: left;
+}
+.btn2:active{
+    border-bottom-width: 3px;
+    margin-top: 3px;
+}
+.btn3{
+    width: 90px;
+    height: 15px;
+    text-align: center;
+    margin-left: 30px;
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color:white;
+    border: 2px solid deepskyblue;
+    background-color:deepskyblue;
+    border-radius: 8px;
+    transition: all ease-in;
+    float: left;
+}
+.btn3:active{
+    border-bottom-width: 3px;
+    margin-top: 3px;
+}
+.btn4{
+    width: 90px;
+    height: 15px;
+    text-align: center;
+    margin-left: 30px;
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color:white;
+    border: 2px solid yellow;
+    background-color: yellow;
+    border-radius: 8px;
+    transition: all ease-in;
+
+}
+.btn4:active{
+    border-bottom-width: 3px;
+    margin-top: 3px;
+}
+.btn5{
+    width: 90px;
+    height: 15px;
+    text-align: center;
+    margin-left: 30px;
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: blueviolet;
+    border: 2px solid blueviolet;
+    border-radius: 2px;
+    transition: all ease-in;
+
+}
+.btn5:active {
+    border-bottom-width: 3px;
+    margin-top: 3px;
+}
+.btn6{
+    width: 90px;
+    height: 15px;
+    text-align: center;
+    margin-left: 30px;
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: mediumseagreen;
+    border: 2px solid mediumseagreen;
+    border-radius: 20px;
+    transition: all ease-in;
+
+}
+.btn6:active {
+    border-bottom-width: 3px;
+    margin-top: 3px;
+}
+.clear{
+    clear: both;
+}

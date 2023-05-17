@@ -1,0 +1,135 @@
+body{
+    background-color: #c8e9f0;
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    background-color: white;
+    margin: 0;
+    padding: 5px;
+}
+.navbar-menyu{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.item{
+    display: inline-block;
+    padding: 20px 10px;
+    margin: 1px 1px;
+}
+.item:hover {
+    background-color: #f1f1f1;
+}
+.item a:hover{
+    color: aqua;
+}
+.rasm{
+    margin-right: 200px;
+    margin-bottom: -8px;
+    margin-left: 10px;
+}
+.item a{
+    color: #808080;
+    text-decoration: none;
+}
+.drop-menu{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    margin: 0;
+    padding: 0;
+    width: 120px;
+    background-color: white;
+    z-index: 1;
+    display: none;
+}
+.item:hover .drop-menu{
+    display: block;
+}
+.item:after{
+    content: '';
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    background-size: 90%;
+    background-position: center center;
+    /*vertical-align: middle;*/
+    /*margin-left: 5px;*/
+    position: absolute;
+    top: 40%;
+    right: 10px;
+}
+.item {
+    position: relative;
+    padding-right: 25px;
+}
+.rasm2{
+    margin-right: 110px;
+    margin-bottom: -4px;
+    margin-left: 10px;
+    width: 15px;
+    height: 15px;
+}
+.drop-item{
+    margin: 0;
+    padding: 0;
+}
+.drop-item{
+    list-style: none; /*list-style: none; = li/li teglarining nuqtalari olib tawadi*/
+    display: inline-block;
+    position: relative;
+
+}
+.drop-item a{
+    text-decoration: none;
+    color: #808080;
+    padding: 20px 15px;
+    display: inline-block;
+    text-align: left;
+}
+.drop-menu-item:hover a{
+    background-color: royalblue;
+    color: white;
+}
+.sub-menu{
+    margin: 0;
+    padding: 0;
+    border: 1px solid #f1f1f1;
+    position: absolute;
+    top: 0;
+    display: none;
+    left: 100%;
+    width: 280px;
+}
+.sub-menu-item{
+    list-style: none;
+    color: #808080;
+    padding: 10px 15px;
+    background-color: white;
+    text-align: left;
+}
+.sub-menu-item:hover{
+    background-color: rgba(255, 255, 255, 0.6);
+}
+.drop-item:hover > .sub-menu{
+    display: block;
+}
+.sub-menu-item > .sub-menu{
+    left: 100%;
+    top: 0;
+}
+.sub-menu-item:hover .sub-menu{
+    display: block;
+}
+.sub-menu-item {
+    left: 100%;
+    top: 0;
+    border-bottom: 1px solid black;
+}
+.drop-item:hover{
+    color: aqua;
+}
+.sub-menu-item:hover{
+    color: #c8e9f0;
+}
